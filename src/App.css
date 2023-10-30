@@ -1,0 +1,174 @@
+body{
+  background-color: rgb(216, 236, 236);
+}
+.mainnav{
+    background-color:rgb(113, 39, 121);
+    height: 60px;
+    display:flex;
+    text-align: center;
+    position: relative;
+}
+.nav1{
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+        
+}
+a{
+    color:rgb(49, 170, 150);
+    text-decoration: none;
+    
+}
+a:hover{
+    color: rgb(255, 255, 0);
+}
+#navid{
+    margin-right: 20px;
+    position: absolute;
+    right: 0;
+}
+.userclass{
+    right: 150px;
+    position: absolute;
+    top: 15px;
+    color:black;
+    font-size: 25px;
+}
+/*    form css*/
+ .formposition{
+   height: 20rem;
+    width: 25rem;
+    margin-left: 30%;
+    text-align: center;
+    margin-top: 5rem;
+    background-color: aqua;
+} 
+.form-container{
+    height: 20rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid rgb(143, 205, 10);
+    
+}
+.formtext{
+    height: 120px;
+    width: 200px;
+    
+}
+.itemform{
+    height: 25px;
+    width: 200px;
+    
+}
+/*  main page  */
+.imgs{
+    height: 250px;
+    width: 200px;
+    padding: 30px;
+}
+
+.imagediv{
+    border:2px solid blue;
+    border-radius: 5px;
+
+}
+/* new    */
+.imcontainer{
+    display:flex;
+    flex-flow: wrap;
+    height: 250px;
+    width: 225px;
+}
+/* .container{
+    height: 250px;
+    width: 225px;
+    padding-top: 20px;
+    padding-left: 140px;
+  
+}
+.titlename{
+    height: 10px;
+    width: 10px;
+    font-size:x-small;
+}
+.wrapped{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    margin-left: 10px;
+} */
+.cartim{
+    height: 250px;
+    width:225px;
+    padding: 30px;
+}
+.carttitle{
+    font-size: 14px;
+    padding:20px;
+}
+.cartcontainer{
+    border: 1px solid red;
+    width: 300px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.maincart{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+.mainbutton{
+    padding: 10px;
+    color: red;
+    margin-left:14px ;
+}
+.cartbutton{
+    text-align: center;
+    padding-left:5px;
+    padding-right: 5px;
+    font-size: small;
+}
+.try{
+    
+    animation-name: scrollable;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,#fd2b06 0%,#440ef4 29%,#f90a5e 67%,#f5ed05 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 10% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 49px;
+
+   
+}
+@keyframes textclip{
+    to{
+        background-position: 10% center;
+        
+    }
+}
+.typesclass{
+    
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    margin: 10px;
+    width: 50%;
+}
